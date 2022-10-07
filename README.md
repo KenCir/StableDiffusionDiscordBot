@@ -1,0 +1,2 @@
+# StableDiffusionDiscordBot
+Stable Diffusionで画像を生成するDiscordBot
