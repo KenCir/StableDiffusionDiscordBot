@@ -49,7 +49,6 @@ async def image(ctx, *args):
     await ctx.reply(f'{" ".join(args)}で画像を生成します、お待ちください...')
     thread = threading.Thread(target=image_generete, args=(ctx, " ".join(args)))
     thread.start()
-    thread.join()
 
 
 bot.run("discord TOKEN")
